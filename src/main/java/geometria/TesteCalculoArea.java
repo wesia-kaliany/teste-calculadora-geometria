@@ -2,6 +2,13 @@ package geometria;
 
 public class TesteCalculoArea {
 
+     public static void main(String[] args) {
+        testarQuadrado();
+        testarRetangulo();
+        testarTriangulo();
+    }
+    
+
     private static void testarQuadrado() {
         Quadrado q = new Quadrado(4);
         System.out.println("Área do quadrado: " + q.calcularArea());
